@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "ToDoList",
+  "description": "Create your daily todolist",
+  "version": "1.0.0",
+  "chrome_url_overrides": {
+    "newtab":"index.html"
+  },
+  "browser_action": {
+    "default_icon": "logoblue.png"
+  },
+  "permissions": ["activeTab"]
+}

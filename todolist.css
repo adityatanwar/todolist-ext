@@ -1,0 +1,60 @@
+body{
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.complete{
+    color:grey;
+    text-decoration: line-through;
+}
+.incomplete{
+    color:black;
+    text-decoration: none;
+}
+.actual{
+    position: relative;
+    margin-top: 12em;
+    margin-left: 24em;
+}
+li:hover #de{
+    width:2em;
+    transition:0.5s;
+}
+#de {
+    font-size: 1.2em;
+    display: inline-block;
+    color:white;
+    background: #e51912;
+    width:0;
+    text-align: center;
+    margin-right: 1em;
+    height:100%;
+}
+.laaa{
+    padding:0.1rem 0.1rem;
+    height:2.5em;
+}
+.heading{
+    display: inline-block;
+    position: relative;
+    left: -0.3em;
+}
+.image{
+    background-image: url(logoblue.png);
+    height: 3em;
+    width: 4.5em;
+    background-size: cover;
+    position: relative;
+    top: 0.7em;
+    display: inline-block;
+}
+.imm{
+    background-image: url('logoblue.png');
+    background-size: cover;
+    max-width:100%;
+}
+.wrapper{
+    width:45%;
+    margin-top:10em;
+}
