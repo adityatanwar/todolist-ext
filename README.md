@@ -1,4 +1,4 @@
 # Todolist
-<p>This is a responsive todolist solely based on frontend.<P>
-<P>Framework used-Bootstrap<P>
-[Check it out here](https://adityatanwar.github.io/todolist)
+<p>Replace your boring New Tab Page with this beautiful,lightweight and useful extension.<P>  
+<P>To Download extension download the todolist.crx file given in this repo.<P>
+[Check working sample of extension here](https://adityatanwar.github.io/todolist)
