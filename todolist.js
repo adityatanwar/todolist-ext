@@ -1,4 +1,4 @@
-
+    console.log("Started");
     var taskarray=JSON.parse(localStorage.getItem('data')) || [];
     if(taskarray.length!=0)
     {
@@ -58,7 +58,7 @@
     });
     $("li").on("mouseover",function(){
         $("#de").css({
-            display:"inline"
+            display:"inline";
         })
     });
     $("input").keypress(function(event){
